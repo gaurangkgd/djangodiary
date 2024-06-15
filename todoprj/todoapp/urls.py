@@ -8,11 +8,8 @@ urlpatterns = [
     path('logout/', views.LogoutView, name='logout'),
     path('delete/<int:id>/', views.DeleteTask, name='delete-task'),
     path('update/<int:id>/', views.Update, name='update-task'),
+    path('edit/<int:id>/', views.edit_task, name='edit-task'),
 ]
-
-
-
-
 
 
 
